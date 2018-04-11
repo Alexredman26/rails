@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <center>
   <head>
     <title>Pinterested</title>
     <%= csrf_meta_tags %>
@@ -9,6 +10,9 @@
   </head>
 
   <body>
+    <%= render 'home/header' %>
+    
     <%= yield %>
   </body>
+  </center>
 </html>
